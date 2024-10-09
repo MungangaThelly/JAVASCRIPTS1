@@ -16,7 +16,7 @@ var passengers = 90;
 
 var cars_without_drivers = cars - drivers //Räkna ut hur många bilar som inte har en förare;
     
-var cars_with_drivers = drivers//Räkna ut hur många bilar som har en förare;
+var cars_with_drivers = drivers //Räkna ut hur många bilar som har en förare;
   
 var carpool_capacity = seats_in_car * drivers //Räkna ut det totala antalet platser alla bilar med förare har tillsammans;
   

@@ -5,26 +5,23 @@ Börja med att göra en flowchart och översätt denna sedan till pseudokod. Par
 uppmuntras för att bolla tankar.
 */
 
-//Flowchart
-Start
-Fråga: Ange höjd
-Fråga: Ange bredd
-Beräkna area: Area = Höjd * Bredd
-Visa area i konsolen
-Slut
+// Funktion för att beräkna area
+function beraknaArea() {
+    // Fråga användaren efter höjd
+    let hojd = prompt("Ange höjd:");
+    // Fråga användaren efter bredd
+    let bredd = prompt("Ange bredd:");
 
+    // Konvertera inmatningarna till tal
+    hojd = parseFloat(hojd);
+    bredd = parseFloat(bredd);
 
-//pseudokod
-START
+    // Beräkna arean
+    let area = hojd * bredd;
 
-FRÅGA: Ange höjd
-LÄS in höjd
+    // Visa arean i konsolen
+    console.log("Arean är: " + area);
+}
 
-FRÅGA: Ange bredd
-LÄS in bredd
-
-BERÄKNA: area = höjd * bredd
-
-Skriv ut area i konsolen
-
-SLUT
+// Anropa funktionen
+beraknaArea();

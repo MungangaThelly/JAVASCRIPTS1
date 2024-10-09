@@ -2,13 +2,6 @@
 Processen är en PERSON som gör valet att LÄMNA eller inte LÄMNA hemmet beroende på om det regnar eller inte. 
 Ingen kodning i javascript behövs, men pseudokod ska skrivas  */
 
+//flawchart
+
 //pseudokod
-START
-
-FRÅGA: Regnar det? 
-OM (Regnar == sant) DÅ
-    Skriv "Lämna hemmet"
-ANNARS
-    Skriv "Stanna hemma"
-
-SLUT
